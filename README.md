@@ -1,1 +1,1 @@
-# GSR
+# GSR Studio
