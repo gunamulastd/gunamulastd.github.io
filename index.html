@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GSR Studio — Web Design, Built in the UK</title>
+  <meta name="description" content="GSR is a UK web design studio crafting fast, distinctive websites for ambitious brands." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700;800;900&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="site-header">
+    <a href="#top" class="logo">GSR<span class="logo-dot">.</span></a>
+    <nav class="nav" id="nav">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#process">Process</a>
+      <a href="#contact" class="nav-cta">Start a project</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ===== Hero ===== -->
+  <main id="top">
+    <section class="hero">
+      <p class="eyebrow">Web design studio — United Kingdom</p>
+      <h1 class="hero-title">
+        Websites that<br />
+        work as <em>hard</em><br />
+        as you do.
+      </h1>
+      <p class="hero-sub">
+        GSR designs and builds fast, distinctive websites for ambitious
+        brands. Strategy, design and code — under one roof.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Start a project</a>
+        <a href="#work" class="btn btn-ghost">See our work</a>
+      </div>
+    </section>
+
+    <!-- ===== Marquee strip ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Web design</span><span>•</span>
+        <span>Development</span><span>•</span>
+        <span>Branding</span><span>•</span>
+        <span>E-commerce</span><span>•</span>
+        <span>SEO</span><span>•</span>
+        <span>Web design</span><span>•</span>
+        <span>Development</span><span>•</span>
+        <span>Branding</span><span>•</span>
+        <span>E-commerce</span><span>•</span>
+        <span>SEO</span><span>•</span>
+      </div>
+    </div>
+
+    <!-- ===== Services ===== -->
+    <section class="section" id="services">
+      <div class="section-head">
+        <h2>What we do</h2>
+        <p>Every project gets the full studio: strategy first, pixels second, code that lasts.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service reveal">
+          <h3>Web design</h3>
+          <p>Custom interfaces designed around your customers — not a template. Wireframes to polished UI, responsive on every screen.</p>
+        </article>
+        <article class="service reveal">
+          <h3>Development</h3>
+          <p>Hand-built with modern HTML, CSS and JavaScript. Fast to load, easy to update, and built to pass Core Web Vitals.</p>
+        </article>
+        <article class="service reveal">
+          <h3>E-commerce</h3>
+          <p>Online shops that convert. Product pages, baskets and checkouts designed to remove friction from buying.</p>
+        </article>
+        <article class="service reveal">
+          <h3>Brand &amp; SEO</h3>
+          <p>Logos, type and colour systems that make you recognisable — plus on-page SEO so people actually find you.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Work ===== -->
+    <section class="section" id="work">
+      <div class="section-head">
+        <h2>Selected work</h2>
+        <p>A few recent projects. Hover to take a closer look.</p>
+      </div>
+      <div class="work-grid">
+        <a href="#contact" class="work-card reveal">
+          <div class="work-thumb thumb-1"><span>Northway Coffee</span></div>
+          <div class="work-meta"><h3>Northway Coffee</h3><p>E-commerce · Branding</p></div>
+        </a>
+        <a href="#contact" class="work-card reveal">
+          <div class="work-thumb thumb-2"><span>Fenwick Legal</span></div>
+          <div class="work-meta"><h3>Fenwick Legal</h3><p>Web design · Development</p></div>
+        </a>
+        <a href="#contact" class="work-card reveal">
+          <div class="work-thumb thumb-3"><span>Orbit Fitness</span></div>
+          <div class="work-meta"><h3>Orbit Fitness</h3><p>Web app · SEO</p></div>
+        </a>
+        <a href="#contact" class="work-card reveal">
+          <div class="work-thumb thumb-4"><span>Hartley &amp; Co</span></div>
+          <div class="work-meta"><h3>Hartley &amp; Co</h3><p>Web design · Branding</p></div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== Process ===== -->
+    <section class="section" id="process">
+      <div class="section-head">
+        <h2>How a project runs</h2>
+        <p>Four stages, clear deliverables at each one. No surprises.</p>
+      </div>
+      <ol class="process-list">
+        <li class="reveal"><h3>Discover</h3><p>We learn your business, your customers and your goals, and agree what success looks like.</p></li>
+        <li class="reveal"><h3>Design</h3><p>Wireframes first, then full visual design. You review and approve every screen before we build.</p></li>
+        <li class="reveal"><h3>Build</h3><p>We code the approved design, test it on real devices, and tune it for speed and accessibility.</p></li>
+        <li class="reveal"><h3>Launch</h3><p>We deploy, connect your domain and analytics, and hand over with training and documentation.</p></li>
+      </ol>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner">
+        <h2>Tell us about<br />your <em>project</em>.</h2>
+        <form class="contact-form" id="contactForm">
+          <label>
+            Your name
+            <input type="text" name="name" placeholder="Jane Smith" required />
+          </label>
+          <label>
+            Email address
+            <input type="email" name="email" placeholder="jane@company.co.uk" required />
+          </label>
+          <label>
+            What do you need?
+            <textarea name="message" rows="4" placeholder="A new website for our bakery in Leeds…" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send enquiry</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> GSR Studio. All rights reserved.</p>
+    <p>Made in the UK 🇬🇧</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
